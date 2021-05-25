@@ -2,6 +2,29 @@
   text-align: center;
 }
 
+.btm-whole{
+  height:10vh;
+  width:100vw;
+  background: #080808;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-done{
+  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+  color: rgba(255, 255, 255, 0.8);
+  background: rgb(145, 92, 182);
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 27px;
+  width: fit-content;
+  margin: auto;
+  cursor: pointer;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
